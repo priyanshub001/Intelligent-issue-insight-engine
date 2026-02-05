@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:intelligent_insight_issuse/LoginPage.dart';
+import 'package:intelligent_insight_issuse/RegisterPage.dart';
 import 'issue_form.dart';
 import 'dashboard_page.dart';
 
@@ -18,7 +20,7 @@ class IssueInsightApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Roboto',
       ),
-      home: const IssueFormPage(),
+      home: LoginScreen(),
       routes: {
         '/dashboard': (context) => const DashboardPage(),
       },
